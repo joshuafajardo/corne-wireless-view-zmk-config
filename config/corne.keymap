@@ -9,6 +9,13 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+        conditional_layers {
+                compatible = "zmk, conditional-layers";
+                tri_layer {
+                if-layers = <1 2>;
+                then-layer = <3>;
+                        };
+        };
         macros {
                 t_up: t_up {
                         label = "T_UP";
