@@ -52,13 +52,13 @@
                         #binding-cells = <0>;
                         bindings = <&kp LALT &kp LGUI &kp RIGHT>;
                 };
-                move_left: move_left {
+                mv_left: mv_left {
                         label = "MV_LEFT";
                         compatible = "zmk, behavior-macro";
                         #binding-cells = <0>;
                         bindings = <&kp LCTRL &kp LSHFT &kp LEFT>;
                 };
-                move_right: move_right {
+                mv_right: mv_right {
                         label = "MV_RIGHT";
                         compatible = "zmk, behavior-macro";
                         #binding-cells = <0>;
