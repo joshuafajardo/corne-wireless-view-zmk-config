@@ -18,32 +18,32 @@
         };
 
         macros {
-                t_up: t_up {
-                        label = "T_UP";
+                tile_up: tile_up {
+                        label = "TILE_UP";
                         compatible = "zmk,behavior-macro";
                         #binding-cells = <0>;
                         bindings = <&kp LCTRL &kp LALT &kp UP>;
                 };
-                t_left: t_left {
-                        label = "T_LEFT";
+                tile_left: tile_left {
+                        label = "TILE_LEFT";
                         compatible = "zmk,behavior-macro";
                         #binding-cells = <0>;
                         bindings = <&kp LCTRL &kp LALT &kp LEFT>;
                 };
-                t_down: t_down {
-                        label = "T_DOWN";
+                tile_down: tile_down {
+                        label = "TILE_DOWN";
                         compatible = "zmk,behavior-macro";
                         #binding-cells = <0>;
                         bindings = <&kp LCTRL &kp LALT &kp DOWN>;
                 };
-                t_right: t_right {
-                        label = "T_RIGHT";
+                tile_right: tile_right {
+                        label = "TILE_RIGHT";
                         compatible = "zmk,behavior-macro";
                         #binding-cells = <0>;
                         bindings = <&kp LCTRL &kp LALT &kp RIGHT>;
                 };
-                t_full: t_full {
-                        label = "T_FULL";
+                tile_full: tile_full {
+                        label = "TILE_FULL";
                         compatible = "zmk,behavior-macro";
                         #binding-cells = <0>;
                         bindings = <&kp LCTRL &kp LALT &kp ENTER>;
@@ -111,8 +111,8 @@
                         label = "Combo";
                         bindings = <
    &none      &kp KP_NLCK  &none  &none      &none     &none     &none  &none         &none         &none       &none       &kp RCTL
-   &none      &none        &none  &kp PG_UP  &kp HOME  &none     &none  &go_left      &go_right     &none       &t_up    &t_full
-   &kp LSHFT  &none        &none  &kp PG_DN  &kp END   &none     &none  &mv_right  &mv_left   &t_left  &t_down  &t_right
+   &none      &none        &none  &kp PG_UP  &kp HOME  &none     &none  &go_left      &go_right     &none       &tile_up    &tile_full
+   &kp LSHFT  &none        &none  &kp PG_DN  &kp END   &none     &none  &mv_right  &mv_left   &tile_left  &tile_down  &tile_right
                     	     &trans  &kp LGUI   &kp SPACE   &kp BSPC   &trans  &kp RALT
                         >;
                 };
