@@ -103,8 +103,8 @@
                         label = "Combo";
                         bindings = <
    &none      &kp KP_NLCK  &none  &none      &none     &none     &none  &none         &none         &none       &none       &kp RCTL
-   &none      &none        &none  &kp PG_UP  &kp HOME  &none     &none  &GO_LEFT   &GO_RIGHT  &none       &T_UP    &T_FULL
-   &kp LSHFT  &none        &none  &kp PG_DN  &kp END   &none     &none  &MV_RIGHT  &MV_LEFT   &T_LEFT  &T_DOWN  &T_RIGHT
+   &none      &none        &none  &kp PG_UP  &kp HOME  &none     &none  &go_left   &go_right  &none       &t_up    &t_full
+   &kp LSHFT  &none        &none  &kp PG_DN  &kp END   &none     &none  &mv_right  &mv_left   &t_left  &t_down  &t_right
                     	     &trans  &kp LGUI   &kp SPACE   &kp BSPC   &trans  &kp RALT
                         >;
                 };
