@@ -102,9 +102,9 @@
                 combo_layer {
                         label = "Combo";
                         bindings = <
-   &none       &kp KP_NLCK  &none  &none               &none   &none &none &none  &none &none &none &kp RCTL
-   &none       &none        &none  &kp PG_UP &kp HOME  &none   &none &kp GO_LEFT  &kp GO_RIGHT &none &kp T_UP &kp T_FULL
-   &kp LSHFT   &none        &none  &kp PG_DN &kp END   &none   &none &kp MV_RIGHT  &kp MV_LEFT &kp T_LEFT &kp T_DOWN &kp T_RIGHT
+   &none      &kp KP_NLCK  &none  &none      &none     &none     &none  &none         &none         &none       &none       &kp RCTL
+   &none      &none        &none  &kp PG_UP  &kp HOME  &none     &none  &kp GO_LEFT   &kp GO_RIGHT  &none       &kp T_UP    &kp T_FULL
+   &kp LSHFT  &none        &none  &kp PG_DN  &kp END   &none     &none  &kp MV_RIGHT  &kp MV_LEFT   &kp T_LEFT  &kp T_DOWN  &kp T_RIGHT
                     	     &trans  &kp LGUI   &kp SPACE   &kp BSPC   &trans  &kp RALT
                         >;
                 };
