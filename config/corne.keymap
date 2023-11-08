@@ -18,55 +18,46 @@
         };
         macros {
                 t_up: t_up {
-                        label = "T_UP";
                         compatible = "zmk, behavior-macro";
                         #binding-cells = <0>;
                         bindings = <&kp LCTRL &kp LALT &kp UP>;
                 };
                 t_left: t_left {
-                        label = "T_LEFT";
                         compatible = "zmk, behavior-macro";
                         #binding-cells = <0>;
                         bindings = <&kp LCTRL &kp LALT &kp LEFT>;
                 };
                 t_down: t_down {
-                        label = "T_DOWN";
                         compatible = "zmk, behavior-macro";
                         #binding-cells = <0>;
                         bindings = <&kp LCTRL &kp LALT &kp DOWN>;
                 };
                 t_right: t_right {
-                        label = "T_RIGHT";
                         compatible = "zmk, behavior-macro";
                         #binding-cells = <0>;
                         bindings = <&kp LCTRL &kp LALT &kp RIGHT>;
                 };
                 t_full: t_full {
-                        label = "T_FULL";
                         compatible = "zmk, behavior-macro";
                         #binding-cells = <0>;
                         bindings = <&kp LCTRL &kp LALT &kp ENTER>;
                 };
                 go_left: go_left {
-                        label = "GO_LEFT";
                         compatible = "zmk, behavior-macro";
                         #binding-cells = <0>;
                         bindings = <&kp LALT &kp LGUI &kp LEFT>;
                 };
                 go_right: go_right {
-                        label = "GO_RIGHT";
                         compatible = "zmk, behavior-macro";
                         #binding-cells = <0>;
                         bindings = <&kp LALT &kp LGUI &kp RIGHT>;
                 };
                 mv_left: mv_left {
-                        label = "MV_LEFT";
                         compatible = "zmk, behavior-macro";
                         #binding-cells = <0>;
                         bindings = <&kp LCTRL &kp LSHFT &kp LEFT>;
                 };
                 mv_right: mv_right {
-                        label = "MV_RIGHT";
                         compatible = "zmk, behavior-macro";
                         #binding-cells = <0>;
                         bindings = <&kp LCTRL &kp LSHFT &kp RIGHT>;
