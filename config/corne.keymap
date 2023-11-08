@@ -22,55 +22,91 @@
                         label = "TILE_UP";
                         compatible = "zmk,behavior-macro";
                         #binding-cells = <0>;
-                        bindings = <&kp LCTRL &kp LALT &kp UP>;
+                        bindings
+                            = <&macropress &kp LCTRL &kp LALT>
+                            , <&kp UP>
+                            , <&macrorelease &kp LCTRL &kp LALT>
+                            ;
                 };
                 tile_left: tile_left {
                         label = "TILE_LEFT";
                         compatible = "zmk,behavior-macro";
                         #binding-cells = <0>;
-                        bindings = <&kp LCTRL &kp LALT &kp LEFT>;
+                        bindings
+                            = <&macropress &kp LCTRL &kp LALT>
+                            , <&kp LEFT>
+                            , <&macrorelease &kp LCTRL &kp LALT>
+                            ;
                 };
                 tile_down: tile_down {
                         label = "TILE_DOWN";
                         compatible = "zmk,behavior-macro";
                         #binding-cells = <0>;
-                        bindings = <&kp LCTRL &kp LALT &kp DOWN>;
+                        bindings
+                            = <&macropress &kp LCTRL &kp LALT>
+                            , <&kp DOWN>
+                            , <&macrorelease &kp LCTRL &kp LALT>
+                            ;
                 };
                 tile_right: tile_right {
                         label = "TILE_RIGHT";
                         compatible = "zmk,behavior-macro";
                         #binding-cells = <0>;
-                        bindings = <&kp LCTRL &kp LALT &kp RIGHT>;
+                        bindings
+                            = <&macropress &kp LCTRL &kp LALT>
+                            , <&kp RIGHT>
+                            , <&macrorelease &kp LCTRL &kp LALT>
+                            ;
                 };
                 tile_full: tile_full {
                         label = "TILE_FULL";
                         compatible = "zmk,behavior-macro";
                         #binding-cells = <0>;
-                        bindings = <&kp LCTRL &kp LALT &kp ENTER>;
+                        bindings
+                            = <&macropress &kp LCTRL &kp LALT>
+                            , <&kp ENTER>
+                            , <&macrorelease &kp LCTRL &kp LALT>
+                            ;
                 };
                 go_left: go_left {
                         label = "GO_LEFT";
                         compatible = "zmk,behavior-macro";
                         #binding-cells = <0>;
-                        bindings = <&kp LALT &kp LGUI &kp LEFT>;
+                        bindings
+                            = <&macropress &kp LALT &kp LGUI>
+                            , <&kp LEFT>
+                            , <&macrorelease &kp LALT &kp LGUI>
+                            ;
                 };
                 go_right: go_right {
                         label = "GO_RIGHT";
                         compatible = "zmk,behavior-macro";
                         #binding-cells = <0>;
-                        bindings = <&kp LALT &kp LGUI &kp RIGHT>;
+                        bindings
+                            = <&macropress &kp LALT &kp LGUI>
+                            , <&kp RIGHT>
+                            , <&macrorelease &kp LALT &kp LGUI>
+                            ;
                 };
                 mv_left: mv_left {
                         label = "MV_LEFT";
                         compatible = "zmk,behavior-macro";
                         #binding-cells = <0>;
-                        bindings = <&kp LCTRL &kp LSHFT &kp LEFT>;
+                        bindings
+                            = <&macropress &kp LCTRL &kp LSHFT>
+                            , <&kp LEFT>
+                            , <&macrorelease &kp LCTRL &kp LSHFT>
+                            ;
                 };
                 mv_right: mv_right {
                         label = "MV_RIGHT";
                         compatible = "zmk,behavior-macro";
                         #binding-cells = <0>;
-                        bindings = <&kp LCTRL &kp LSHFT &kp RIGHT>;
+                        bindings
+                            = <&macropress &kp LCTRL &kp LSHFT>
+                            , <&kp RIGHT>
+                            , <&macrorelease &kp LCTRL &kp LSHFT>
+                            ;
                 };
         };
 
