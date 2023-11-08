@@ -10,31 +10,31 @@
 
 / {
         macros {
-                tile_up: tile_up {
+                t_up: t_up {
                         label = "T_UP";
                         compatible = "zmk, behavior-macro";
                         #binding-cells = <0>;
                         bindings = <&kp LCTRL &kp LALT &kp UP>;
                 };
-                tile_left: tile_left {
+                t_left: t_left {
                         label = "T_LEFT";
                         compatible = "zmk, behavior-macro";
                         #binding-cells = <0>;
                         bindings = <&kp LCTRL &kp LALT &kp LEFT>;
                 };
-                tile_down: tile_down {
+                t_down: t_down {
                         label = "T_DOWN";
                         compatible = "zmk, behavior-macro";
                         #binding-cells = <0>;
                         bindings = <&kp LCTRL &kp LALT &kp DOWN>;
                 };
-                tile_right: tile_right {
+                t_right: t_right {
                         label = "T_RIGHT";
                         compatible = "zmk, behavior-macro";
                         #binding-cells = <0>;
                         bindings = <&kp LCTRL &kp LALT &kp RIGHT>;
                 };
-                tile_full: tile_full {
+                t_full: t_full {
                         label = "T_FULL";
                         compatible = "zmk, behavior-macro";
                         #binding-cells = <0>;
